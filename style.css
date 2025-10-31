@@ -230,6 +230,22 @@ body {
     line-height: 1.6;
 }
 
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.featured-card {
+    background: linear-gradient(135deg, var(--color-gray-50) 0%, var(--color-white) 100%);
+    border: 2px solid var(--color-gray-800);
+}
+
+.featured-card:hover {
+    border-color: var(--color-black);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
 /* Tech Stack Section */
 .tech-stack {
     margin: var(--spacing-2xl) 0;
@@ -259,6 +275,32 @@ body {
     background: var(--color-gray-900);
     color: var(--color-white);
     border-color: var(--color-gray-900);
+}
+
+/* Service Area Section */
+.service-area {
+    margin: var(--spacing-2xl) 0;
+}
+
+.area-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-lg);
+    justify-content: center;
+    margin-top: var(--spacing-lg);
+}
+
+.area-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    font-size: 1rem;
+    color: var(--color-gray-800);
+    font-weight: 500;
+}
+
+.area-icon {
+    font-size: 1.5rem;
 }
 
 /* ===================================
@@ -342,6 +384,80 @@ body {
     font-size: 0.875rem;
     color: var(--color-gray-500);
     margin-top: var(--spacing-sm);
+}
+
+/* ===================================
+   Detail Page Styles
+   =================================== */
+.detail-page {
+    max-width: 800px;
+}
+
+.back-nav, .bottom-nav {
+    margin: var(--spacing-lg) 0;
+}
+
+.back-link {
+    font-family: var(--font-mono);
+    font-size: 0.9375rem;
+    color: var(--color-gray-600);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+.back-link:hover {
+    color: var(--color-black);
+}
+
+.detail-header {
+    padding: var(--spacing-xl) 0;
+    text-align: center;
+}
+
+.detail-title {
+    font-family: var(--font-mono);
+    font-size: clamp(1.25rem, 3vw, 1.75rem);
+    font-weight: 500;
+    line-height: 1.4;
+    margin: var(--spacing-md) 0;
+    color: var(--color-gray-900);
+}
+
+.service-description {
+    display: block;
+    margin: var(--spacing-sm) 0;
+    text-align: center;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    color: var(--color-gray-700);
+}
+
+.features-section {
+    margin: var(--spacing-2xl) 0;
+}
+
+.features-list {
+    list-style: none;
+    margin-top: var(--spacing-lg);
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md);
+    font-size: 1.0625rem;
+    color: var(--color-gray-800);
+    border-bottom: 1px solid var(--color-gray-200);
+}
+
+.feature-item:last-child {
+    border-bottom: none;
+}
+
+.check-mark {
+    font-size: 1.5rem;
+    color: var(--color-gray-700);
+    flex-shrink: 0;
 }
 
 /* ===================================
