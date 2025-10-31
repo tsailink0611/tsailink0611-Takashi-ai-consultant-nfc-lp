@@ -392,10 +392,15 @@ body {
 }
 
 .footer-text {
+.email-link {    color: var(--color-gray-500);    text-decoration: none;    transition: color var(--transition-fast);}.email-link:hover {    color: var(--color-black);    text-decoration: underline;}
     font-size: 0.875rem;
+.email-link {    color: var(--color-gray-500);    text-decoration: none;    transition: color var(--transition-fast);}.email-link:hover {    color: var(--color-black);    text-decoration: underline;}
     color: var(--color-gray-500);
+.email-link {    color: var(--color-gray-500);    text-decoration: none;    transition: color var(--transition-fast);}.email-link:hover {    color: var(--color-black);    text-decoration: underline;}
     margin-top: var(--spacing-sm);
+.email-link {    color: var(--color-gray-500);    text-decoration: none;    transition: color var(--transition-fast);}.email-link:hover {    color: var(--color-black);    text-decoration: underline;}
 }
+.email-link {    color: var(--color-gray-500);    text-decoration: none;    transition: color var(--transition-fast);}.email-link:hover {    color: var(--color-black);    text-decoration: underline;}
 
 /* ===================================
    Detail Page Styles
