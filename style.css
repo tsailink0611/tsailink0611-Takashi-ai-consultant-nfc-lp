@@ -314,6 +314,12 @@ body {
     font-size: 1.5rem;
 }
 
+.code-symbol {
+    font-family: var(--font-mono);
+    font-weight: 600;
+    color: var(--color-gray-700);
+}
+
 /* ===================================
    CTA Section
    =================================== */
