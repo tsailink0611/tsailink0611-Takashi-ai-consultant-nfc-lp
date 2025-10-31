@@ -257,6 +257,28 @@ body {
     }
 }
 
+.featured-tagline {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--color-gray-900);
+    margin: var(--spacing-sm) 0;
+    line-height: 1.5;
+}
+
+.featured-subtitle {
+    font-size: 0.9375rem;
+    color: var(--color-gray-700);
+    margin: var(--spacing-xs) 0;
+    line-height: 1.6;
+}
+
+.featured-description {
+    font-size: 0.875rem;
+    color: var(--color-gray-600);
+    margin-top: var(--spacing-sm);
+    line-height: 1.6;
+}
+
 /* Tech Stack Section */
 .tech-stack {
     margin: var(--spacing-2xl) 0;
@@ -398,15 +420,21 @@ body {
 }
 
 .footer-text {
-.email-link {    color: var(--color-gray-500);    text-decoration: none;    transition: color var(--transition-fast);}.email-link:hover {    color: var(--color-black);    text-decoration: underline;}
     font-size: 0.875rem;
-.email-link {    color: var(--color-gray-500);    text-decoration: none;    transition: color var(--transition-fast);}.email-link:hover {    color: var(--color-black);    text-decoration: underline;}
     color: var(--color-gray-500);
-.email-link {    color: var(--color-gray-500);    text-decoration: none;    transition: color var(--transition-fast);}.email-link:hover {    color: var(--color-black);    text-decoration: underline;}
     margin-top: var(--spacing-sm);
-.email-link {    color: var(--color-gray-500);    text-decoration: none;    transition: color var(--transition-fast);}.email-link:hover {    color: var(--color-black);    text-decoration: underline;}
 }
-.email-link {    color: var(--color-gray-500);    text-decoration: none;    transition: color var(--transition-fast);}.email-link:hover {    color: var(--color-black);    text-decoration: underline;}
+
+.email-link {
+    color: var(--color-gray-500);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+.email-link:hover {
+    color: var(--color-black);
+    text-decoration: underline;
+}
 
 /* ===================================
    Detail Page Styles
@@ -480,6 +508,29 @@ body {
     font-size: 1.5rem;
     color: var(--color-gray-700);
     flex-shrink: 0;
+}
+
+.tagline-section {
+    margin: var(--spacing-xl) 0;
+    padding: var(--spacing-lg);
+    background: var(--color-gray-50);
+    border-radius: var(--radius-md);
+    text-align: center;
+}
+
+.detail-tagline {
+    font-size: 1rem;
+    color: var(--color-gray-800);
+    line-height: 1.8;
+    margin: var(--spacing-xs) 0;
+}
+
+.detail-subtitle {
+    font-size: 1rem;
+    color: var(--color-gray-600);
+    margin-top: var(--spacing-md);
+    text-align: center;
+    font-style: italic;
 }
 
 /* ===================================
