@@ -128,9 +128,9 @@ body {
 }
 
 .name-content {
-    display: inline-block;
+    display: block;
     margin: var(--spacing-xs) 0;
-    text-align: left;
+    text-align: center;
 }
 
 .code-keyword {
@@ -207,6 +207,14 @@ body {
 .service-icon {
     font-size: 2rem;
     margin-bottom: var(--spacing-sm);
+}
+
+.code-icon {
+    font-family: var(--font-mono);
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--color-gray-800);
+    letter-spacing: 0.05em;
 }
 
 .service-card h3 {
