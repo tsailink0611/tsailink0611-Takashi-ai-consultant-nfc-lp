@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:sandbox.cloudflare.com)",
+      "Bash(git init:*)",
+      "Read(//c/Users/tsail/Desktop/スクリーンショット/**)",
+      "Bash(git add:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "openai-codex"
+  ]
+}
